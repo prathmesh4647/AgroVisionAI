@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background: #4CAF50; /* Header background color */
+    color: white;
+    padding: 10px 20px; /* Header padding */
+    text-align: center; /* Centered text */
+}
+
+nav ul {
+    list-style: none; /* No bullets */
+    padding: 0; /* No padding */
+}
+
+nav ul li {
+    display: inline; /* Inline list items */
+    margin: 0 15px; /* Margin between items */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+/* Section Styles */
+section {
+    padding: 20px; /* Padding for sections */
+    margin: 20px; /* Margin between sections */
+    background: white; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Service Container */
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two boxes in a row */
+    gap: 20px; /* Space between boxes */
+    padding: 20px;
+}
+
+/* Service Boxes */
+.service-box {
+    background: #4CAF50; /* Background color of boxes */
+    color: white;
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    text-align: center; /* Centered text */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.service-box:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Centered footer text */
+    padding: 10px 0; /* Padding for footer */
+    background: #4CAF50; /* Footer background color */
+    color: white; /* Footer text color */
+    position: relative; /* Position footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service-container {
+        grid-template-columns: repeat(2, 1fr); /* Two boxes in a row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .service-container {
+        grid-template-columns: 1fr; /* One box in a row on mobile devices */
+    }
+}

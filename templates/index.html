@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroVisionAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>AgroVisionAI</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to AgroVisionAI</h2>
+        <p>Welcome to AgroVisionAI, where we harness the power of artificial intelligence to assist farmers in making data-driven decisions. Our goal is to provide accurate market price predictions and valuable insights that enhance farming practices and profitability.</p>
+        <p>Join us on a journey towards smarter farming and sustainable agriculture!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>Market Price Predictions</h3>
+                <p>Utilizing AI algorithms to forecast market prices.</p>
+            </div>
+            <div class="service-box">
+                <h3>Weather Services</h3>
+                <p>Providing accurate weather forecasts to aid farming decisions.</p>
+            </div>
+            <div class="service-box">
+                <h3>Early Warning System (EWS)</h3>
+                <p>Alerting farmers to impending weather changes and risks.</p>
+            </div>
+            <div class="service-box">
+                <h3>Crop Disease Diagnosis</h3>
+                <p>Identifying and diagnosing crop diseases using AI technology.</p>
+            </div>
+            <div class="service-box">
+                <h3>Support</h3>
+                <p>24/7 support for all your agricultural needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <h2>Benefits</h2>
+        <ul>
+            <li>Improved decision-making for planting and selling.</li>
+            <li>Reduced risk of crop loss.</li>
+            <li>Increased profitability through better timing of sales.</li>
+            <li>Access to market trends and insights.</li>
+        </ul>
+    </section>
+
+    <section id="aboutus">
+        <h2>About Us</h2>
+        <p>AgroVisionAI is dedicated to transforming agriculture through innovative technology. Our team is passionate about providing farmers with the tools and insights they need to succeed in a rapidly changing market. We believe that with the right information, farmers can maximize their yields and make more informed decisions.</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>"Using AI predictions has changed the way I farm. I feel more confident in my decisions!" - Farmer John</p>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Explore research papers and articles about AI in agriculture.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AgroVisionAI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
